@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 35px;
+        width: 150px;
+        outline: none;
+        margin: 5px;
+
+      }
+      .buttons {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .response {
+        justify-content: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="buttons">
+      <button id="open-recrapp">Open IT Stars</button>
+      <button id="open-candidate">Check candidate</button>
+    </div>
+    <div id="response">
+      <h4 id="name"></h4>
+      <p id="owner-name"></p>
+      <p id="created"></p>
+      <p id="updated"></p>
+    </div>
+    <script src="open.js"></script>
+    <script src="openCandidate.js"></script>
+  </body>
+</html>
